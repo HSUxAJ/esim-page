@@ -23,14 +23,14 @@ export default {
           id: 1,
           title: '美國 加拿大 14天 esim 每日1GB',
           description: '探索美國 加拿大十四天，享受快速的esim網路服務，每日1GB的高速數據。',
-          link: 'https://moccapower186.boostime.me/products/w2akcsfi',
+          link: 'https://moccapower186.boostime.me/products/qs5czigc',
           image: 'https://cdn.discordapp.com/attachments/889388976392273931/1120206624171245639/US-CA-14days.png'
         },
         {
           id: 2,
           title: '美國 加拿大 30天 esim 每日1GB',
           description: '暢遊美國 加拿大三十天，無需擔心流量限制，每日提供1GB的高速esim數據。',
-          link: 'https://moccapower186.boostime.me/products/hkbs9tsf',
+          link: 'https://moccapower186.boostime.me/products/vxzpwfnl',
           image: 'https://cdn.discordapp.com/attachments/889388976392273931/1120206623881822218/US-CA-30days.png'
         }
       ]

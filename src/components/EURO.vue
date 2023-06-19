@@ -23,14 +23,14 @@ export default {
           id: 1,
           title: '歐洲 14天 esim 5GB',
           description: '探索歐洲十四天，享受快速的esim網路服務，5GB的高速數據。',
-          link: 'https://moccapower186.boostime.me/products/w2akcsfi',
+          link: 'https://moccapower186.boostime.me/products/a1kbbmig',
           image: 'https://cdn.discordapp.com/attachments/889388976392273931/1120205199001268315/EURO-14days.png'
         },
         {
           id: 2,
           title: '歐洲 30天 esim 10GB',
           description: '暢遊歐洲三十天，無需擔心流量限制，提供10GB的高速esim數據。',
-          link: 'https://moccapower186.boostime.me/products/hkbs9tsf',
+          link: 'https://moccapower186.boostime.me/products/c28zz9v5',
           image: 'https://cdn.discordapp.com/attachments/889388976392273931/1120205198594412554/EURO-30days.png'
         }
       ]

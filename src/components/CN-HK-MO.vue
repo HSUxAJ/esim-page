@@ -23,14 +23,14 @@ export default {
           id: 1,
           title: '大陸 香港 澳門 3天 esim 1GB',
           description: '探索大陸 香港 澳門五天，享受快速的esim網路服務，1GB的高速數據。',
-          link: 'https://moccapower186.boostime.me/products/w2akcsfi',
+          link: 'https://moccapower186.boostime.me/products/2c7uipme',
           image: 'https://cdn.discordapp.com/attachments/889388976392273931/1120204048973439017/CN-HK-MO-3days.png'
         },
         {
           id: 2,
           title: '大陸 香港 澳門 8天 esim 3GB',
           description: '暢遊大陸 香港 澳門八天，無需擔心流量限制，提供3GB的高速esim數據。',
-          link: 'https://moccapower186.boostime.me/products/hkbs9tsf',
+          link: 'https://moccapower186.boostime.me/products/h9ujgzo2',
           image: 'https://cdn.discordapp.com/attachments/889388976392273931/1120204048755343500/CN-HK-MO-8days.png'
         }
       ]
