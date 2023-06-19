@@ -79,6 +79,7 @@ h2 {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .destination-button {
