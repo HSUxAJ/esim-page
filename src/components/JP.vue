@@ -35,6 +35,17 @@ export default {
         }
       ]
     };
+  },
+  mounted() {
+    window.addEventListener('popstate', this.goBack);
+  },
+  beforeUnmount() {
+    window.removeEventListener('popstate', this.goBack);
+  },
+  methods: {
+    goBack() {
+      window.history.back();
+    }
   }
 };
 </script>
