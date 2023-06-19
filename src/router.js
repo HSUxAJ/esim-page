@@ -44,4 +44,14 @@ const router = createRouter({
   routes
 });
 
+router.beforeEach((to, from, next) => {
+  const isExternal = from.name === null;
+  if (isExternal) {
+    // 進行重定向到 Home page 的操作
+    next({ path: '/' });
+  } else {
+    next();
+  }
+});
+
 export default router;
