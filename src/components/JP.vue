@@ -7,6 +7,7 @@
       <div class="post-content">
         <h2>{{ post.title }}</h2>
         <p>{{ post.description }}</p>
+        <p class="post-price">價格: NT$ {{ post.price }}</p>
         <a :href="post.link" target="_blank">查看詳情</a>
       </div>
     </div>
@@ -22,14 +23,16 @@ export default {
         {
           id: 1,
           title: '日本 5天 esim 5GB',
-          description: '探索日本五天，享受快速的esim網路服務，5GB的高速數據。',
+          description: '探索日本五天，享受快速的 esim 網路服務，5GB 的高速數據。',
+          price: 430, 
           link: 'https://moccapower186.boostime.me/products/w2akcsfi',
           image: 'https://cdn.discordapp.com/attachments/889388976392273931/1120202416185417768/Flag_of_Japan_5days.png'
         },
         {
           id: 2,
           title: '日本 8天 esim 8GB',
-          description: '暢遊日本八天，無需擔心流量限制，提供8GB的高速esim數據。',
+          description: '暢遊日本八天，無需擔心流量限制，提供8GB的高速 esim 數據。',
+          price: 600, 
           link: 'https://moccapower186.boostime.me/products/hkbs9tsf',
           image: 'https://cdn.discordapp.com/attachments/889388976392273931/1120202415891824721/Flag_of_Japan_8days.png'
         }
@@ -79,6 +82,11 @@ export default {
 .post-content p {
   margin-bottom: 10px;
   line-height: 1.5;
+}
+
+.post-content .post-price {
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .post-content a {

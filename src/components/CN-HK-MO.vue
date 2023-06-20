@@ -7,6 +7,7 @@
       <div class="post-content">
         <h2>{{ post.title }}</h2>
         <p>{{ post.description }}</p>
+        <p class="post-price">價格: NT$ {{ post.price }}</p>
         <a :href="post.link" target="_blank">查看詳情</a>
       </div>
     </div>
@@ -24,12 +25,14 @@ export default {
           title: '大陸 香港 澳門 3天 esim 1GB',
           description: '探索大陸 香港 澳門五天，享受快速的esim網路服務，1GB的高速數據。',
           link: 'https://moccapower186.boostime.me/products/2c7uipme',
+          price: 240,
           image: 'https://cdn.discordapp.com/attachments/889388976392273931/1120204048973439017/CN-HK-MO-3days.png'
         },
         {
           id: 2,
           title: '大陸 香港 澳門 8天 esim 3GB',
           description: '暢遊大陸 香港 澳門八天，無需擔心流量限制，提供3GB的高速esim數據。',
+          price: 325,
           link: 'https://moccapower186.boostime.me/products/h9ujgzo2',
           image: 'https://cdn.discordapp.com/attachments/889388976392273931/1120204048755343500/CN-HK-MO-8days.png'
         }
@@ -79,6 +82,11 @@ export default {
 .post-content p {
   margin-bottom: 10px;
   line-height: 1.5;
+}
+
+.post-content .post-price {
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .post-content a {

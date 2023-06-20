@@ -7,6 +7,7 @@
       <div class="post-content">
         <h2>{{ post.title }}</h2>
         <p>{{ post.description }}</p>
+        <p class="post-price">價格: NT$ {{ post.price }}</p>
         <a :href="post.link" target="_blank">查看詳情</a>
       </div>
     </div>
@@ -23,6 +24,7 @@ export default {
           id: 1,
           title: '美國 加拿大 14天 esim 每日1GB',
           description: '探索美國 加拿大十四天，享受快速的esim網路服務，每日1GB的高速數據。',
+          price: 830,
           link: 'https://moccapower186.boostime.me/products/qs5czigc',
           image: 'https://cdn.discordapp.com/attachments/889388976392273931/1120206624171245639/US-CA-14days.png'
         },
@@ -30,6 +32,7 @@ export default {
           id: 2,
           title: '美國 加拿大 30天 esim 每日1GB',
           description: '暢遊美國 加拿大三十天，無需擔心流量限制，每日提供1GB的高速esim數據。',
+          price: 1100,
           link: 'https://moccapower186.boostime.me/products/vxzpwfnl',
           image: 'https://cdn.discordapp.com/attachments/889388976392273931/1120206623881822218/US-CA-30days.png'
         }
@@ -79,6 +82,11 @@ export default {
 .post-content p {
   margin-bottom: 10px;
   line-height: 1.5;
+}
+
+.post-content .post-price {
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .post-content a {
